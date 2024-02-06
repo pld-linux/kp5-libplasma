@@ -6,7 +6,7 @@
 #
 %define		kdeplasmaver	5.93.0
 %define		qtver		5.15.2
-%define		kf5ver		5.102.0
+%define		kf6ver		5.102.0
 %define		kpname		libplasma
 
 Summary:	KDE libplasma
@@ -35,44 +35,40 @@ BuildRequires:	gpsd-devel
 BuildRequires:	iso-codes
 BuildRequires:	ka5-kio-extras-devel
 BuildRequires:	ka5-libkexiv2-devel
-BuildRequires:	kf5-baloo-devel
-BuildRequires:	kf5-extra-cmake-modules >= %{kf5ver}
-BuildRequires:	kf5-kactivities-devel >= %{kf5ver}
-BuildRequires:	kf5-kactivities-stats-devel >= %{kf5ver}
-BuildRequires:	kf5-karchive-devel >= %{kf5ver}
-BuildRequires:	kf5-kauth-devel >= %{kf5ver}
-BuildRequires:	kf5-kcmutils-devel >= %{kf5ver}
-BuildRequires:	kf5-kcoreaddons-devel >= %{kf5ver}
-BuildRequires:	kf5-kcrash-devel >= %{kf5ver}
-BuildRequires:	kf5-kdbusaddons-devel >= %{kf5ver}
-BuildRequires:	kf5-kdeclarative-devel >= %{kf5ver}
-BuildRequires:	kf5-kded-devel
-BuildRequires:	kf5-kdoctools-devel >= %{kf5ver}
-BuildRequires:	kf5-kglobalaccel-devel >= %{kf5ver}
-BuildRequires:	kf5-kguiaddons-devel >= %{kf5ver}
-BuildRequires:	kf5-kholidays-devel
-BuildRequires:	kf5-ki18n-devel >= %{kf5ver}
-BuildRequires:	kf5-kiconthemes-devel >= %{kf5ver}
-BuildRequires:	kf5-kidletime-devel >= %{kf5ver}
-BuildRequires:	kf5-kio-devel >= %{kf5ver}
-BuildRequires:	kf5-kitemmodels-devel >= %{kf5ver}
-BuildRequires:	kf5-knewstuff-devel >= %{kf5ver}
-BuildRequires:	kf5-knotifications-devel >= %{kf5ver}
-BuildRequires:	kf5-knotifyconfig-devel >= %{kf5ver}
-BuildRequires:	kf5-kpackage-devel >= %{kf5ver}
-BuildRequires:	kf5-kpeople-devel >= %{kf5ver}
-BuildRequires:	kf5-kquickcharts-devel >= %{kf5ver}
-BuildRequires:	kf5-krunner-devel >= %{kf5ver}
-BuildRequires:	kf5-ktexteditor-devel >= %{kf5ver}
-BuildRequires:	kf5-ktextwidgets-devel >= %{kf5ver}
-BuildRequires:	kf5-kunitconversion-devel >= %{kf5ver}
-BuildRequires:	kf5-kwallet-devel >= %{kf5ver}
-BuildRequires:	kf5-kwayland-devel >= %{kf5ver}
-BuildRequires:	kf5-networkmanager-qt-devel >= %{kf5ver}
-BuildRequires:	kf5-plasma-framework-devel >= %{kf5ver}
 BuildRequires:	kf5-plasma-wayland-protocols-devel >= 1.6
-BuildRequires:	kf5-prison-devel >= %{kf5ver}
-BuildRequires:	kf6-kirigami-devel >= %{kf5ver}
+BuildRequires:	kf6-baloo-devel
+BuildRequires:	kf6-extra-cmake-modules >= %{kf6ver}
+BuildRequires:	kf6-karchive-devel >= %{kf6ver}
+BuildRequires:	kf6-kauth-devel >= %{kf6ver}
+BuildRequires:	kf6-kcmutils-devel >= %{kf6ver}
+BuildRequires:	kf6-kcoreaddons-devel >= %{kf6ver}
+BuildRequires:	kf6-kcrash-devel >= %{kf6ver}
+BuildRequires:	kf6-kdbusaddons-devel >= %{kf6ver}
+BuildRequires:	kf6-kdeclarative-devel >= %{kf6ver}
+BuildRequires:	kf6-kded-devel
+BuildRequires:	kf6-kdoctools-devel >= %{kf6ver}
+BuildRequires:	kf6-kglobalaccel-devel >= %{kf6ver}
+BuildRequires:	kf6-kguiaddons-devel >= %{kf6ver}
+BuildRequires:	kf6-kholidays-devel
+BuildRequires:	kf6-ki18n-devel >= %{kf6ver}
+BuildRequires:	kf6-kiconthemes-devel >= %{kf6ver}
+BuildRequires:	kf6-kidletime-devel >= %{kf6ver}
+BuildRequires:	kf6-kio-devel >= %{kf6ver}
+BuildRequires:	kf6-kitemmodels-devel >= %{kf6ver}
+BuildRequires:	kf6-knewstuff-devel >= %{kf6ver}
+BuildRequires:	kf6-knotifications-devel >= %{kf6ver}
+BuildRequires:	kf6-knotifyconfig-devel >= %{kf6ver}
+BuildRequires:	kf6-kpackage-devel >= %{kf6ver}
+BuildRequires:	kf6-kpeople-devel >= %{kf6ver}
+BuildRequires:	kf6-kquickcharts-devel >= %{kf6ver}
+BuildRequires:	kf6-krunner-devel >= %{kf6ver}
+BuildRequires:	kf6-ktexteditor-devel >= %{kf6ver}
+BuildRequires:	kf6-ktextwidgets-devel >= %{kf6ver}
+BuildRequires:	kf6-kunitconversion-devel >= %{kf6ver}
+BuildRequires:	kf6-kwallet-devel >= %{kf6ver}
+BuildRequires:	kf6-networkmanager-qt-devel >= %{kf6ver}
+BuildRequires:	kf6-prison-devel >= %{kf6ver}
+BuildRequires:	kf6-kirigami-devel >= %{kf6ver}
 BuildRequires:	kp5-plasma-activities-devel >= %{version}
 BuildRequires:	kuserfeedback-devel
 BuildRequires:	libdrm-devel
